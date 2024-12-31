@@ -1,0 +1,47 @@
+
+/* swiper card */
+.banner-card .swiper {
+    width: 240px;
+    height: 320px;
+}
+  
+  .banner-card .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner-card .swiper-slide:nth-child(1n) {
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book1.png?updatedAt=1725795165770');
+  }
+  
+  .banner-card .swiper-slide:nth-child(2n) {
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book2.png?updatedAt=1725795373173');
+  }
+  
+  .banner-card .swiper-slide:nth-child(3n) {
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book3.png?updatedAt=1725795372974');
+  }
+  
+  .banner-card .swiper-slide:nth-child(4n) {
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book4.png?updatedAt=1725795373003');
+  }
+  
+  .banner-card .swiper-slide:nth-child(5n) {
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book5.png?updatedAt=1725795373169');
+  }
+
+  
+
+  @media  (max-width: 768px){
+    .banner-card .swiper-cards{
+        overflow: hidden;
+    }
+  }
